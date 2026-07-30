@@ -1,7 +1,27 @@
 aid: mienv-o
 name: Mienvío
-description: Mienvío is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Mienvío is a Mexican logistics control-tower platform that unifies multiple
+  parcel carriers behind a single multi-carrier shipping API and dashboard for
+  e-commerce, retail, marketplace, and fintech shippers across Latin America. It
+  compares carrier rates, automates routing by cost, SLA, and coverage zone,
+  generates shipping labels, and provides real-time tracking, delivery-incident
+  management, and post-purchase customer notifications. Merchants integrate
+  through the REST API (api.mienvio.mx/v2) or prebuilt Shopify and WooCommerce
+  connectors, shipping nationally, internationally, and locally across Mexico,
+  Colombia, Chile, Costa Rica, Peru, Guatemala, and El Salvador.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/65b146ad7d71aced5d8ce108/66215bcd108d7fa4e58d0d3b_icono-256.jpg
 url: https://raw.githubusercontent.com/api-evangelist/mienv-o/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +31,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Shipping
+- Logistics
+- Multi-Carrier
+- E-commerce
+- Fulfillment
+- Package Tracking
+- Mexico
+- Latin America
+apis:
+- name: Mienvío Shipping API
+  description: >-
+    REST API for comparing carrier rates, creating shipments and shipping
+    labels, and tracking parcels across Latin American carriers. Live,
+    authenticated host at api.mienvio.mx/v2.
+  humanURL: https://mienvio.mx/api
+  baseURL: https://api.mienvio.mx/v2
+  properties: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +59,26 @@ maintainers:
 common:
 - type: Website
   url: https://mienvio.mx
+- type: DeveloperPortal
+  url: https://mienvio.mx/api
+- type: Documentation
+  url: https://mienvio.mx/api
+- type: Blog
+  url: https://mienvio.mx/blog-mienvio
+- type: SignUp
+  url: https://mienvio.mx/signup
+- type: Login
+  url: https://app2.mienvio.mx/login
+- type: TermsOfService
+  url: https://mienvio.mx/terminos-y-condiciones-mienvio
+- type: DomainSecurity
+  url: security/mienv-o-domain-security.yml
+- type: WellKnown
+  url: well-known/mienv-o-well-known.yml
+- type: LLMsTxt
+  url: llms/mienv-o-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
