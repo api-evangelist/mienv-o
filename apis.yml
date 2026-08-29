@@ -10,6 +10,17 @@ description: >-
   through the REST API (api.mienvio.mx/v2) or prebuilt Shopify and WooCommerce
   connectors, shipping nationally, internationally, and locally across Mexico,
   Colombia, Chile, Costa Rica, Peru, Guatemala, and El Salvador.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
